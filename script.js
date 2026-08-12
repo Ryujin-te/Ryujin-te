@@ -23,6 +23,22 @@ document.querySelectorAll("[data-year]").forEach((node) => {
   node.textContent = String(new Date().getFullYear());
 });
 
+document.querySelectorAll("[data-optional-image]").forEach((image) => {
+  image.addEventListener("error", () => image.remove());
+});
+
+const videoSlot = document.querySelector("[data-video-slot]");
+const videoId = String(window.RYUJINTE_VIDEO_ID || "").trim();
+if (videoSlot && /^[A-Za-z0-9_-]{6,20}$/.test(videoId)) {
+  const frame = document.createElement("iframe");
+  frame.src = `https://www.youtube-nocookie.com/embed/${videoId}`;
+  frame.title = "Ryujin-te karate demonstration";
+  frame.loading = "lazy";
+  frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+  frame.allowFullscreen = true;
+  videoSlot.replaceChildren(frame);
+}
+
 if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {

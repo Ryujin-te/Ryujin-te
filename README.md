@@ -9,15 +9,14 @@ This folder contains the complete static website for `ryujinte.com`. It requires
 3. Open the repository's **Settings**, then **Pages**.
 4. Under **Build and deployment**, select **Deploy from a branch**.
 5. Select the `main` branch and `/ (root)` folder, then save.
-6. In Namecheap Advanced DNS, connect `ryujinte.com` to GitHub Pages using GitHub's current custom-domain instructions.
-7. In the GitHub Pages settings, enter `ryujinte.com` as the custom domain and enable **Enforce HTTPS** once available.
-
-The included `CNAME` file tells GitHub Pages that `ryujinte.com` is the intended address.
+6. Confirm that the temporary `github.io` address works before connecting the custom domain.
+7. In Namecheap Advanced DNS, connect `ryujinte.com` to GitHub Pages using GitHub's current custom-domain instructions.
+8. In the GitHub Pages settings, enter `ryujinte.com` as the custom domain and enable **Enforce HTTPS** once available. GitHub will create the required `CNAME` file.
 
 ## Before public launch
 
-- Replace `ryujinte@gmail.com` with the branded address once Namecheap email is activated.
-- Confirm pricing before accepting registrations.
-- Do not remove the insurance and pre-launch statements until coverage and venue arrangements are active.
-- Add the final social sharing image as `og.png`.
+- Read `MEDIA-GUIDE.md` to add your instructor photograph and YouTube demonstration.
+- Replace `ryujinte@gmail.com` with the branded address once domain email is activated.
+- Confirm pricing, dates, cancellation terms and refund terms before accepting payment.
+- Do not remove the insurance statement until coverage and teaching-location arrangements are active.
 - Review all public lineage language personally before promotion.
