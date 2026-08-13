@@ -33,6 +33,15 @@ if (phone) {
   });
 }
 
+const bookingUrl = String(window.RYUJINTE_BOOKING_URL || "").trim();
+if (/^https:\/\//i.test(bookingUrl)) {
+  document.querySelectorAll("[data-booking-link]").forEach((link) => {
+    link.href = bookingUrl;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  });
+}
+
 document.querySelectorAll("[data-gallery-image]").forEach((image) => {
   image.addEventListener("error", () => image.closest("figure")?.remove());
 });
