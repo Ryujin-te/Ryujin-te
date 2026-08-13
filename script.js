@@ -23,11 +23,28 @@ document.querySelectorAll("[data-year]").forEach((node) => {
   node.textContent = String(new Date().getFullYear());
 });
 
-document.querySelectorAll("[data-optional-image]").forEach((image) => {
-  image.addEventListener("error", () => image.remove());
+const phone = String(window.RYUJINTE_PHONE || "").trim();
+if (phone) {
+  const dialable = phone.replace(/[^+\d]/g, "");
+  document.querySelectorAll("[data-phone-link]").forEach((link) => {
+    link.textContent = phone;
+    link.href = `tel:${dialable}`;
+    link.hidden = false;
+  });
+}
+
+document.querySelectorAll("[data-gallery-image]").forEach((image) => {
+  image.addEventListener("error", () => image.closest("figure")?.remove());
+});
+
+const portraitImage = document.querySelector("[data-portrait-image]");
+portraitImage?.addEventListener("error", () => {
+  document.querySelector("[data-portrait]")?.remove();
+  document.querySelector("[data-instructor-grid]")?.classList.add("no-portrait");
 });
 
 const videoSlot = document.querySelector("[data-video-slot]");
+const videoSection = document.querySelector("[data-video-section]");
 const videoId = String(window.RYUJINTE_VIDEO_ID || "").trim();
 if (videoSlot && /^[A-Za-z0-9_-]{6,20}$/.test(videoId)) {
   const frame = document.createElement("iframe");
@@ -37,6 +54,7 @@ if (videoSlot && /^[A-Za-z0-9_-]{6,20}$/.test(videoId)) {
   frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
   frame.allowFullscreen = true;
   videoSlot.replaceChildren(frame);
+  videoSection.hidden = false;
 }
 
 if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {

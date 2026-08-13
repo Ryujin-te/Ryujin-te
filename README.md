@@ -16,7 +16,7 @@ This folder contains the complete static website for `ryujinte.com`. It requires
 ## Before public launch
 
 - Read `MEDIA-GUIDE.md` to add your instructor photograph and YouTube demonstration.
-- Replace `ryujinte@gmail.com` with the branded address once domain email is activated.
-- Confirm pricing, dates, cancellation terms and refund terms before accepting payment.
-- Do not remove the insurance statement until coverage and teaching-location arrangements are active.
+- Add the dedicated phone number to `site-config.js`; it remains hidden until configured.
+- The contact form uses FormSubmit and sends to `philip@ryujinte.com`. The first test submission triggers a one-time activation email; click that email before relying on the form.
+- Confirm cancellation and refund terms before accepting payment.
 - Review all public lineage language personally before promotion.

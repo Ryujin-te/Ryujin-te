@@ -23,7 +23,7 @@ YouTube is recommended for video because a large video stored directly in the we
 5. Put the ID between the quotation marks: `window.RYUJINTE_VIDEO_ID = "ABC123";`
 6. Select **Commit changes**.
 
-The placeholder on the home page will automatically become a responsive YouTube player.
+The video section is completely hidden until a valid video ID is entered. It will then appear automatically as a responsive YouTube player.
 
 ## Fill the three training-photo positions
 
@@ -33,7 +33,7 @@ The home page contains three additional ready-made photograph positions. Rename 
 - `training-02.jpg`
 - `training-03.jpg`
 
-The first position is wider, so use your strongest horizontal action photograph there. The other two can be horizontal or moderately cropped vertical images. Each placeholder disappears automatically when its correctly named photograph is available.
+The first position is wider, so use your strongest horizontal action photograph there. The other two can be horizontal or moderately cropped vertical images. Until photographs are uploaded, the empty gallery is completely hidden from visitors.
 
 ## Add still more photographs later
 
