@@ -18,6 +18,6 @@ This folder contains the complete static website for `ryujinte.com`. It requires
 - Read `MEDIA-GUIDE.md` to add your instructor photograph and YouTube demonstration.
 - Add the dedicated phone number to `site-config.js`; it remains hidden until configured.
 - Add the Cal.com or Calendly event address to `site-config.js`. Every booking button updates automatically.
-- The contact form uses FormSubmit and sends to `philip@ryujinte.com`. The first test submission triggers a one-time activation email; click that email before relying on the form.
+- The contact form uses FormSubmit and sends to `ryujinte@gmail.com`. The first test submission triggers a one-time activation email; click that email before relying on the form.
 - Confirm cancellation and refund terms before accepting payment.
 - Review all public lineage language personally before promotion.
