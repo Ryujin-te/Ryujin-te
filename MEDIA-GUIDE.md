@@ -4,7 +4,7 @@ You can do this entirely through the GitHub website. You do not need to edit the
 
 ## Add or replace the instructor photograph
 
-1. Prepare a JPG photograph. A portrait or vertical crop works best.
+1. Prepare a vertical JPG portrait in natural light. Face the camera with a neutral expression; ordinary clothing or a floral shirt is better than a fighting stance or raised fists.
 2. Rename it exactly `philip-piluris.jpg`.
 3. Open the `media` folder in your GitHub repository.
 4. Select **Add file**, then **Upload files**.
@@ -25,15 +25,17 @@ YouTube is recommended for video because a large video stored directly in the we
 
 The video section is completely hidden until a valid video ID is entered. It will then appear automatically as a responsive YouTube player.
 
-## Fill the three training-photo positions
+## Fill the three distributed training-photo positions
 
 The home page contains three additional ready-made photograph positions. Rename and upload your pictures as:
 
-- `training-01.jpg`
-- `training-02.jpg`
-- `training-03.jpg`
+- `training-01.jpg` — a horizontal motion image shown immediately after the opening section
+- `training-02.jpg` — a close technical crop of a hand, rooted foot, or stance detail shown inside the practice section
+- `training-03.jpg` — a wide environmental image, ideally outdoors in morning light, shown between the instructor and lessons sections
 
-The first position is wider, so use your strongest horizontal action photograph there. The other two can be horizontal or moderately cropped vertical images. Until photographs are uploaded, the empty gallery is completely hidden from visitors.
+The photographs are deliberately spread through the page rather than collected in a gallery. Until a photograph is uploaded, its position disappears completely and the page closes the space automatically.
+
+Use natural light, ordinary training locations, and restrained colour. Avoid flash, black backdrops, raised fists directed at the camera, or staged aggression. A little motion blur is acceptable in `training-01.jpg`.
 
 ## Add still more photographs later
 

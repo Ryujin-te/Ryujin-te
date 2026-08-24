@@ -15,9 +15,8 @@ This folder contains the complete static website for `ryujinte.com`. It requires
 
 ## Before public launch
 
-- Read `MEDIA-GUIDE.md` to add your instructor photograph and YouTube demonstration.
-- Add the dedicated phone number to `site-config.js`; it remains hidden until configured.
-- Add the Cal.com or Calendly event address to `site-config.js`. Every booking button updates automatically.
+- Read `MEDIA-GUIDE.md` to add the four real photographs and YouTube demonstration called for by the art direction.
+- The dedicated phone number and Cal.com introduction are configured in `site-config.js`.
 - The contact form uses FormSubmit and sends to `ryujinte@gmail.com`. The first test submission triggers a one-time activation email; click that email before relying on the form. Visible CAPTCHA is disabled and the hidden honeypot remains enabled for basic spam filtering.
 - Confirm cancellation and refund terms before accepting payment.
-- Review all public lineage language personally before promotion.
+- Review the story and curriculum pages personally before promotion, especially the curriculum numbers and grading timeline.
