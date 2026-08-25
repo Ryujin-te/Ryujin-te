@@ -31,11 +31,11 @@ The home page contains three additional ready-made photograph positions. Rename 
 
 - `training-01.jpg` — a horizontal motion image shown immediately after the opening section
 - `training-02.jpg` — a close technical crop of a hand, rooted foot, or stance detail shown inside the practice section
-- `training-03.jpg` — a wide environmental image, ideally outdoors in morning light, shown between the instructor and lessons sections
+- `training-03.jpg` — a wide environmental image, ideally outdoors in morning light, shown beside the contact form
 
 The photographs are deliberately spread through the page rather than collected in a gallery. Until a photograph is uploaded, its position disappears completely and the page closes the space automatically.
 
-Use natural light, ordinary training locations, and restrained colour. Avoid flash, black backdrops, raised fists directed at the camera, or staged aggression. A little motion blur is acceptable in `training-01.jpg`.
+Use natural light, ordinary training locations, and a warm, lively colour grade. Avoid flash, black backdrops, raised fists directed at the camera, or staged aggression. A little motion blur is acceptable in `training-01.jpg`.
 
 ## Add still more photographs later
 
