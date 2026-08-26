@@ -461,6 +461,17 @@ h1, h2, h3, .wordmark, .button, .text-link, .eyebrow, .aside-label, .at-a-glance
 .floral-divider .hibiscus { width: clamp(105px,12vw,165px); height: clamp(105px,12vw,165px); }
 .divider-stencil { width: clamp(30px,6vw,80px); height: clamp(30px,6vw,80px); border: 8px solid var(--jade); outline: 5px solid var(--saffron); transform: rotate(45deg); }
 
+.legend-band { position: relative; min-height: min(78vh,780px); display: grid; align-items: center; overflow: hidden; background: var(--ink); color: var(--paper); border-block: 8px solid var(--copper); }
+.legend-inner { position: relative; z-index: 2; max-width: 960px; padding-block: 100px; text-align: center; }
+.legend-inner .eyebrow { color: var(--saffron); }
+.legend-inner h2 { max-width: 900px; margin: 0 auto 28px; color: var(--paper); font-family: var(--serif); font-size: clamp(50px,7vw,92px); font-weight: 500; letter-spacing: -.045em; line-height: .96; }
+.legend-inner > p:not(.eyebrow) { max-width: 680px; margin: 0 auto 30px; color: var(--sea-light); font-family: var(--serif); font-size: clamp(20px,2.5vw,28px); line-height: 1.5; }
+.legend-inner .text-link { color: var(--paper); }
+.legend-bloom { position: absolute; z-index: 1; width: clamp(190px,25vw,390px); height: clamp(190px,25vw,390px); }
+.legend-bloom i { border-width: 7px; }
+.legend-bloom-left { left: clamp(-210px,-12vw,-90px); bottom: clamp(-170px,-8vw,-70px); }
+.legend-bloom-right { right: clamp(-210px,-12vw,-90px); top: clamp(-170px,-8vw,-70px); transform: rotate(165deg); }
+
 .instructor-band { position: relative; overflow: hidden; background: var(--ink); }
 .instructor-band .instructor-copy h2, .instructor-band .instructor-copy p, .instructor-band .text-link { color: var(--paper); }
 .instructor-band .instructor-copy .eyebrow { color: var(--saffron); }
@@ -531,4 +542,9 @@ h1, h2, h3, .wordmark, .button, .text-link, .eyebrow, .aside-label, .at-a-glance
   .contact-environment img { min-height: 330px; }
   .footer-florals { width: 60vw; opacity: .5; }
   .footer-florals .hibiscus:last-child { display: none; }
+  .legend-band { min-height: 76vh; border-block-width: 6px; }
+  .legend-inner { padding-block: 86px; }
+  .legend-bloom { width: 180px; height: 180px; }
+  .legend-bloom-left { left: -105px; bottom: -72px; }
+  .legend-bloom-right { right: -108px; top: -70px; }
 }
