@@ -345,10 +345,8 @@ h1 { max-width: 820px; margin-bottom: 28px; font-family: var(--serif); font-size
 .section-visual figcaption { position: absolute; right: 0; bottom: 0; padding: 10px 15px; background: rgba(16,44,53,.9); color: var(--white); font-size: 12px; }
 
 .floral-band { position: relative; isolation: isolate; overflow: hidden; }
-.floral-band::before { content: "✿   ·   ✿   ·   ✿   ·   ✿   ·   ✿   ·   ✿"; position: absolute; z-index: 0; right: -4vw; bottom: -38px; color: var(--copper); font-family: Georgia, serif; font-size: clamp(80px,12vw,170px); letter-spacing: .08em; line-height: 1; opacity: .045; white-space: nowrap; pointer-events: none; }
 .floral-band > * { position: relative; z-index: 1; }
 .floral-footer { position: relative; isolation: isolate; overflow: hidden; }
-.floral-footer::before { content: "✿"; position: absolute; z-index: 0; right: 5%; bottom: -70%; color: var(--copper); font-family: Georgia, serif; font-size: 260px; line-height: 1; opacity: .055; pointer-events: none; }
 .floral-footer > * { position: relative; z-index: 1; }
 
 .article-hero { position: relative; padding: 185px 0 105px; background: var(--ink); }
@@ -369,7 +367,7 @@ h1 { max-width: 820px; margin-bottom: 28px; font-family: var(--serif); font-size
 .truth-note { margin-top: 45px !important; padding: 28px 30px; border-left: 3px solid var(--copper); background: var(--mist); font-family: var(--sans); font-size: 16px; }
 .story-coda { margin-top: 70px; padding-top: 15px; }
 .floral-panel { position: relative; padding: 55px; overflow: hidden; border: 1px solid var(--line); background: var(--white); }
-.floral-panel::after { content: "✿"; position: absolute; right: -25px; bottom: -70px; color: var(--copper); font-family: Georgia, serif; font-size: 230px; line-height: 1; opacity: .07; pointer-events: none; }
+.floral-panel::after { content: ""; position: absolute; right: -48px; bottom: -66px; width: 230px; height: 230px; background: url("hibiscus.png") center / contain no-repeat; opacity: .08; pointer-events: none; }
 .floral-panel > * { position: relative; z-index: 1; }
 .disclosure-block { padding: 48px 0 0; border-top: 3px solid var(--copper); }
 
@@ -447,16 +445,8 @@ h1, h2, h3, .wordmark, .button, .text-link, .eyebrow, .aside-label, .at-a-glance
 .training-path div { border-top: 3px solid var(--copper); }
 .training-path div + div { border-left-color: var(--copper); }
 
-.floral-band::before, .floral-footer::before { display: none; }
-.hibiscus { position: relative; display: block; width: 150px; height: 150px; flex: 0 0 auto; }
-.hibiscus i { position: absolute; left: 50%; top: 50%; width: 42%; height: 53%; background: var(--copper); border: 4px solid var(--saffron); border-radius: 58% 58% 45% 45%; transform-origin: 50% 100%; }
-.hibiscus i:nth-child(1) { transform: translate(-50%,-100%) rotate(0deg); }
-.hibiscus i:nth-child(2) { transform: translate(-50%,-100%) rotate(72deg); }
-.hibiscus i:nth-child(3) { transform: translate(-50%,-100%) rotate(144deg); }
-.hibiscus i:nth-child(4) { transform: translate(-50%,-100%) rotate(216deg); }
-.hibiscus i:nth-child(5) { transform: translate(-50%,-100%) rotate(288deg); }
-.hibiscus b { position: absolute; z-index: 3; left: 48%; top: 49%; width: 58%; height: 6px; background: var(--saffron); border: 1px solid var(--ink); transform: rotate(-28deg); transform-origin: left center; }
-.hibiscus b::after { content: ""; position: absolute; right: -7px; top: -7px; width: 16px; height: 16px; border: 3px solid var(--ink); border-radius: 50%; background: var(--saffron); }
+.hibiscus { position: relative; display: block; width: 150px; height: 150px; flex: 0 0 auto; background: url("hibiscus.png") center / contain no-repeat; }
+.hibiscus i, .hibiscus b { display: none; }
 .floral-divider { min-height: 230px; display: flex; align-items: center; justify-content: center; gap: clamp(20px,5vw,80px); padding: 34px max(20px,5vw); overflow: hidden; background: var(--ink); border-block: 10px solid var(--saffron); }
 .floral-divider .hibiscus { width: clamp(105px,12vw,165px); height: clamp(105px,12vw,165px); }
 .divider-stencil { width: clamp(30px,6vw,80px); height: clamp(30px,6vw,80px); border: 8px solid var(--jade); outline: 5px solid var(--saffron); transform: rotate(45deg); }
@@ -468,7 +458,6 @@ h1, h2, h3, .wordmark, .button, .text-link, .eyebrow, .aside-label, .at-a-glance
 .legend-inner > p:not(.eyebrow) { max-width: 680px; margin: 0 auto 30px; color: var(--sea-light); font-family: var(--serif); font-size: clamp(20px,2.5vw,28px); line-height: 1.5; }
 .legend-inner .text-link { color: var(--paper); }
 .legend-bloom { position: absolute; z-index: 1; width: clamp(190px,25vw,390px); height: clamp(190px,25vw,390px); }
-.legend-bloom i { border-width: 7px; }
 .legend-bloom-left { left: clamp(-210px,-12vw,-90px); bottom: clamp(-170px,-8vw,-70px); }
 .legend-bloom-right { right: clamp(-210px,-12vw,-90px); top: clamp(-170px,-8vw,-70px); transform: rotate(165deg); }
 
@@ -478,7 +467,6 @@ h1, h2, h3, .wordmark, .button, .text-link, .eyebrow, .aside-label, .at-a-glance
 .portrait-wrap { position: relative; min-width: 0; }
 .portrait-wrap .portrait-frame { position: relative; z-index: 2; }
 .instructor-bloom { position: absolute; z-index: 1; width: 360px; height: 360px; left: -160px; bottom: -120px; }
-.instructor-bloom i { border-width: 7px; }
 
 .safety-section { background: var(--ink); }
 .safety-section .section-heading h2::after { content: ""; display: block; width: 92px; height: 7px; margin-top: 24px; background: var(--copper); }
