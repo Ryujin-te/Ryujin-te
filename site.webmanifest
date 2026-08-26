@@ -1,0 +1,21 @@
+{
+  "name": "Ryujin-te",
+  "short_name": "Ryujin-te",
+  "description": "Private traditional karate instruction in Vaughan, Ontario.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF4E6",
+  "theme_color": "#16294A",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

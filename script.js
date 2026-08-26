@@ -9,12 +9,16 @@ window.addEventListener("scroll", updateHeader, { passive: true });
 toggle?.addEventListener("click", () => {
   const open = toggle.getAttribute("aria-expanded") !== "true";
   toggle.setAttribute("aria-expanded", String(open));
+  const label = toggle.querySelector(".sr-only");
+  if (label) label.textContent = open ? "Close navigation" : "Open navigation";
   nav?.classList.toggle("open", open);
 });
 
 nav?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     toggle?.setAttribute("aria-expanded", "false");
+    const label = toggle?.querySelector(".sr-only");
+    if (label) label.textContent = "Open navigation";
     nav?.classList.remove("open");
   });
 });
@@ -66,16 +70,4 @@ if (videoSlot && /^[A-Za-z0-9_-]{6,20}$/.test(videoId)) {
   videoSection.hidden = false;
 }
 
-if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("is-visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12, rootMargin: "0px 0px -35px" });
-  document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
-} else {
-  document.querySelectorAll(".reveal").forEach((element) => element.classList.add("is-visible"));
-}
+document.querySelectorAll(".reveal").forEach((element) => element.classList.add("is-visible"));
