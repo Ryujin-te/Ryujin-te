@@ -4,7 +4,7 @@ You can do this entirely through the GitHub website. You do not need to edit the
 
 ## Add or replace the instructor photograph
 
-1. Prepare a vertical JPG portrait in natural light. Face the camera with a neutral expression; ordinary clothing or a floral shirt is better than a fighting stance or raised fists.
+1. Prepare a vertical JPG portrait in natural light. Face the camera with a neutral expression and wear what you actually train or teach in. If the inherited flower-print shirt appears anywhere on the site, this portrait is the place for it: as a fact about you, not as decoration.
 2. Rename it exactly `philip-piluris.jpg`.
 3. Open the `media` folder in your GitHub repository.
 4. Select **Add file**, then **Upload files**.
@@ -35,7 +35,7 @@ The home page contains three additional ready-made photograph positions. Rename 
 
 The photographs are deliberately spread through the page rather than collected in a gallery. Until a photograph is uploaded, its position disappears completely and the page closes the space automatically.
 
-Use natural light, ordinary training locations, and a warm, lively colour grade. Avoid flash, black backdrops, raised fists directed at the camera, or staged aggression. A little motion blur is acceptable in `training-01.jpg`.
+Use natural or hard directional light and ordinary training locations: a park, garage, driveway, small room or other place where the practice really happens. Keep the grade warm but restrained, with strong contrast and honest texture. Avoid faux-dojo staging, costumes, generic East Asian props, raised fists directed at the camera or theatrical aggression. A little motion blur is acceptable in `training-01.jpg`.
 
 ## Add still more photographs later
 

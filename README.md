@@ -17,7 +17,7 @@ This folder contains the complete static website for `ryujinte.com`. It requires
 
 - Read `MEDIA-GUIDE.md` to add the four real photographs and YouTube demonstration called for by the art direction.
 - The dedicated phone number and Cal.com introduction are configured in `site-config.js`.
-- The contact form uses FormSubmit and sends to `ryujinte@gmail.com`. The first test submission triggers a one-time activation email; click that email before relying on the form. Visible CAPTCHA is disabled and the hidden honeypot remains enabled for basic spam filtering.
+- The contact form uses FormSubmit and sends to `philip@ryujinte.com`. The first test submission triggers a one-time activation email at that address; click the activation link before relying on the form. Visible CAPTCHA is disabled and the hidden honeypot remains enabled for basic spam filtering.
 - Confirm cancellation and refund terms before accepting payment.
 - Review the story and curriculum pages personally before promotion, especially the curriculum numbers and grading timeline.
 
@@ -26,4 +26,4 @@ This folder contains the complete static website for `ryujinte.com`. It requires
 - Add `https://ryujinte.com/sitemap.xml` to Google Search Console once the site is live.
 - Create a Google Business Profile as a service-area business after the current training-area wording is confirmed. Do not publish a private home address.
 - Add a simple analytics service only after choosing the provider; no tracking code is included in this package.
-- Replace `ryujinte@gmail.com` only after the branded mailbox is active and has been tested for both sending and receiving.
+- Confirm that `philip@ryujinte.com` can both send and receive before promoting the site.

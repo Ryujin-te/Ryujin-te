@@ -4,8 +4,8 @@
   "description": "Private traditional karate instruction in Vaughan, Ontario.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FAF4E6",
-  "theme_color": "#16294A",
+  "background_color": "#EDEAE4",
+  "theme_color": "#111311",
   "icons": [
     {
       "src": "/favicon-192.png",
